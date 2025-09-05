@@ -13,5 +13,5 @@ jobs:
       with:
         java-version: '11'
         distrbution: 'adopt'
-    - name: Buid with maven
+    - name: Build with maven
       run: mvn -B -e verify
